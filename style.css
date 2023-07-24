@@ -1,0 +1,35 @@
+html * {
+    font-family: 'Montserrat';
+}
+
+@keyframes infinite-rotate {
+    from {
+        transform: rotate (0deg);
+    }
+    to {
+        transform: rotate (360deg)
+    }
+    }
+
+.rotate {
+    animation: infinite-rotate 5s infinite linear;
+    path {fill: #62d6ad;}
+}
+
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+  }
+  
+  html.is-animating .transition-fade {
+    opacity: 0;
+  }
+
+  .dog-image {
+    border-radius: 15px;
+  }
+
+  .book-img {
+    height: 100%;
+    object-fit: cover;
+  }
