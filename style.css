@@ -2,25 +2,16 @@ html * {
     font-family: 'Montserrat';
 }
 
-@keyframes infinite-rotate {
-    from {
-        transform: rotate (0deg);
-    }
-    to {
-        transform: rotate (360deg)
-    }
-    }
-
-.rotate {
-    animation: infinite-rotate 5s infinite linear;
-    path {fill: #62d6ad;}
-}
-
 .transition-fade {
     transition: 0.4s;
     opacity: 1;
   }
   
+  section {
+
+    position:relative;
+  }
+
   html.is-animating .transition-fade {
     opacity: 0;
   }
@@ -32,4 +23,16 @@ html * {
   .book-img {
     height: 100%;
     object-fit: cover;
+  }
+
+  .spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .wave {
+    background-image: url('./images/layered-waves-top.svg');
   }
