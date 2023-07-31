@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/ad41694d2d.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/swup@3"></script>
     <script defer src="main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ivo Žaloudek</title>
@@ -37,7 +36,37 @@
     </div>
   </div>
 </section>
-
+    <section id="interests">
+      <h2 class="text-2xl font-bold text-center text-[#62d6ad]">Interests</h2>
+      <div class="flex sm:flex-row flex-col min-h-screen items-center justify-center gap-5 py-10">
+        <div class="group h-96 w-80 [perspective:1000px]">
+          <div class="relative h-full w-full rounded-md transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div class="absolute inset-0">
+              <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src="https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1548&q=80" alt="person holding a book" />
+            </div>
+            <div class="absolute inset-0 h-full w-full rounded-md bg-[#dca11d] px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div class="flex min-h-full flex-col items-center justify-center">
+                <p class="text-xl">I used to hate reading</p>
+                <p class="text-xl">but I changed my mind.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="group h-96 w-80 [perspective:1000px]">
+          <div class="relative h-full w-full rounded-md transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+            <div class="absolute inset-0">
+              <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src="https://images.unsplash.com/photo-1553165558-424ffa9c4303?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="drone" />
+            </div>
+            <div class="absolute inset-0 h-full w-full rounded-md bg-[#3F79AD] px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+              <div class="flex min-h-full flex-col items-center justify-center">
+                <p class="text-xl">Flying drones for fun (Mavic 2 Pro)</p>
+                <p class="text-xl">A2 Certification</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   <section id="books">
     <h4 class="text-xl font-bold text-center text-[#62d6ad]">Best books I've read this year <span class="text-white font-normal text-sm">(2023)</span></h4>
   <div class="flex flex-col w-1100 text-center py-10 sm:flex-row justify-center items-center gap-2">
