@@ -24,15 +24,3 @@ html * {
     height: 100%;
     object-fit: cover;
   }
-
-  .spacer {
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .wave {
-    background-image: url('./images/layered-waves-top.svg');
-  }
