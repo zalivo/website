@@ -13,16 +13,16 @@
     
   </head>
   <body class="bg-[#1e1f21] text-white">
-    <nav class="flex flex-row justify-around p-4">
+    <nav class="flex flex-row justify-around p-4 place-items-center">
       <div><a href="/"><h1 class="font-bold text-4xl text-[#62d6ad]">Ivo Žaloudek</h1></a></div>
       <div><a class="uppercase" href="./books.html">Books</a></div>
   </nav>
   <section id="who-am-i"></section>
   <section id="main-words">
   <div class="flex flex-col text-center space-y-1.5 py-10">
-  <p class="text-xl">Student at <a class="font-bold text-[#62d6ad] hover:underline" href="https://fis.vse.cz/magisterske-studium/magisterske-programy/ux-vyzkum-a-design-ist/">UX Research and Design</a></p>
+  <p class="text-xl">Student at <a target="_blank" class="font-bold text-[#62d6ad] hover:underline" href="https://fis.vse.cz/magisterske-studium/magisterske-programy/ux-vyzkum-a-design-ist/">UX Research and Design</a></p>
   <p class="text-xl">Programmer <i class="fa-solid fa-code" style="color: #62d6ad;"></i></p>
-  <p class="text-xl">Webdesigner <i class="fa-solid fa-pencil" style="color: #62d6ad;"></i></p>
+  <p class="text-xl">Web design <i class="fa-solid fa-pencil" style="color: #62d6ad;"></i></p>
   <p class="text-xl">Drone pilot <i class="fa-solid fa-binoculars" style="color: #62d6ad;"></i></p>
   </div>
 </section>
@@ -32,17 +32,17 @@
     <div class="flex flex-col gap-2">
      <div class="flex flex-row"><p><i class="fa-solid fa-mobile pr-3 fa-xl" style="color: #62d6ad;"></i> Mobile app</p></div>
      <div class="flex flex-row"><p><i class="fa-solid fa-pencil pr-3 fa-xl" style="color: #62d6ad;"></i> 2 Websites</p></div>
-     <div class="flex flex-row"><p><i class="fa-brands fa-google pr-3 fa-xl" style="color: #62d6ad;"></i> Google UX Certificate</p></div>
+     <div class="flex flex-row"><p><i class="fa-brands fa-google pr-3 fa-xl" style="color: #62d6ad;"></i><a target="_blank" class="font-bold text-[#62d6ad] hover:underline" href="https://coursera.org/share/8b0e5ab4f6c2fe764ddb7a398bf60060">Google UX Certificate</a></p></div>
     </div>
   </div>
 </section>
     <section id="interests">
-      <h2 class="text-2xl font-bold text-center text-[#62d6ad]">Interests</h2>
+        <h2 class="text-2xl font-bold text-center text-[#62d6ad]">Interests</h2>
       <div class="flex sm:flex-row flex-col min-h-screen items-center justify-center gap-5 py-10">
         <div class="group h-96 w-80 [perspective:1000px]">
-          <div class="relative h-full w-full rounded-md transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+          <div class="relative h-full w-full rounded-md transition-all duration-500 [transform-style:preserve-3d] sm:group-focus:[transform:rotateY(180deg)] group-hover:[transform:rotateY(180deg)]">
             <div class="absolute inset-0">
-              <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src="https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1548&q=80" alt="person holding a book" />
+              <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src="https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1548&q=80" alt="person holding a book"/>
             </div>
             <div class="absolute inset-0 h-full w-full rounded-md bg-[#dca11d] px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
               <div class="flex min-h-full flex-col items-center justify-center">
@@ -53,7 +53,7 @@
           </div>
         </div>
         <div class="group h-96 w-80 [perspective:1000px]">
-          <div class="relative h-full w-full rounded-md transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+          <div class="relative h-full w-full rounded-md transition-all duration-500 [transform-style:preserve-3d] sm:group-focus:[transform:rotateY(180deg)] group-hover:[transform:rotateY(180deg)]">
             <div class="absolute inset-0">
               <img class="h-full w-full rounded-xl object-cover shadow-xl shadow-black/40" src="https://images.unsplash.com/photo-1553165558-424ffa9c4303?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="drone" />
             </div>
@@ -80,7 +80,7 @@
 <div class="w-1100 flex flex-col text-center content-center py-15 space-y-1.5">
   <h5 class="text-lg font-bold text-[#62d6ad]">Currently vibing to</h5>
   <div class="w-1100 flex flex-row justify-center">
-  <iframe class="sm:w-1/2 md:w-3/4 lg:w-2/6" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3cXBYazaDFu80FJWoQd9mq?utm_source=generator" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  <iframe class="sm:w-1/2 md:w-3/4 lg:w-2/6" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3cXBYazaDFu80FJWoQd9mq?utm_source=generator" height="80" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   </div>
 </div>
 </section>
