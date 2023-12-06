@@ -36,6 +36,11 @@ window.renderHighlight = async function (target) {
     const p = document.createElement('p');
     p.innerText = chosen.text;
     p.className = 'kindle-highlight';
-
     container.insertAdjacentElement('beforeend', p);
+
+    const title = document.createElement('h2');
+    title.innerText = chosen.book;
+    container.insertAdjacentElement('beforeend', title);
+
+
 }
