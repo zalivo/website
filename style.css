@@ -5,18 +5,18 @@ html * {
 .transition-fade {
     transition: 0.4s;
     opacity: 1;
-  }
-  
-  section {
+}
 
-    position:relative;
-  }
+section {
 
-  html.is-animating .transition-fade {
+    position: relative;
+}
+
+html.is-animating .transition-fade {
     opacity: 0;
-  }
+}
 
-  .book-img {
+.book-img {
     height: 100%;
     object-fit: cover;
-  }
+}
