@@ -2,13 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg+xml" href="/images/favicon.png"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="/images/favicon.png" rel="icon" type="image/svg+xml"/>
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/ad41694d2d.js" crossorigin="anonymous"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/ad41694d2d.js"></script>
     <script defer src="kindle.js"></script>
+    <script src="https://unpkg.com/swup@4"></script>
+    <script>
+        const swup = new Swup();
+    </script>
+
     <title>Books | Ivo Žaloudek</title>
 </head>
 <body class="bg-[#1e1f21] text-white">
@@ -18,67 +23,33 @@
 </nav>
 <section id="books">
     <h1 class="text-5xl font-bold text-center text-[#62d6ad] py-10">Best books I read in</h1>
-    <h4 class="text-3xl font-bold text-center text-[#62d6ad]"><i class="fa-regular fa-calendar"
-                                                                 style="color: #62d6ad;"></i> 2024</h4>
-    <div class="flex flex-col flex-wrap w-1100 text-center py-10 sm:flex-row justify-center items-center gap-2">
-        <a class="book-img" target="_blank"
-           href="https://www.goodreads.com/book/show/17255186-the-phoenix-project"><img
-                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1361113128i/17255186.jpg"
-                alt="The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win book" height="250"
-                width="250"></a></div>
-    <h4 class="text-3xl font-bold text-center text-[#62d6ad]"><i class="fa-regular fa-calendar"
-                                                                 style="color: #62d6ad;"></i> 2023</h4>
-    <div class="flex flex-col flex-wrap w-1100 text-center py-10 sm:flex-row justify-center items-center gap-2">
-        <a class="book-img" target="_blank"
-           href="https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things"><img
-                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442460745i/840.jpg"
-                alt="Design of Everyday Things book" height="250" width="250"></a>
-        <a class="book-img" target="_blank"
-           href="https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows"><img
-                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1663805647i/136251.jpg"
-                alt="Harry Potter and the Deathly Hallows book" height="250" width="250"></a>
-        <a target="_blank" href="https://www.goodreads.com/book/show/53485286-lady-of-the-lake"><img
-                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1590429403i/53485286.jpg"
-                alt="The Witcher - Lady of the Lake book" height="250" width="250"></a>
-        <a target="_blank" href="https://www.goodreads.com/book/show/9969571-ready-player-one"><img
-                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1500930947i/9969571.jpg"
-                alt="Ready player one book" height="250" width="250"></a>
-        <a target="_blank" href="https://www.goodreads.com/book/show/41104077-invisible-women"><img
-                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1617113740i/41104077.jpg"
-                alt="Invisible Women: Data Bias in a World Designed for Men book" height="250" width="250"></a>
+    <div class="flex flex-col flex-wrap w-1100 text-center py-10 sm:flex-row justify-center items-center gap-5">
+        <a href="./2024.html"><h2 class="text-2xl font-bold text-center text-[#62d6ad]"><i
+                class="fa-regular fa-calendar"
+                style="color: #62d6ad;"></i> 2024</h2></a>
+        <a href="./2023.html"><h2 class="text-2xl font-bold text-center text-[#62d6ad]"><i
+                class="fa-regular fa-calendar"
+                style="color: #62d6ad;"></i> 2023</h2></a>
+        <a href="./2022.html"><h2 class="text-2xl font-bold text-center text-[#62d6ad]"><i
+                class="fa-regular fa-calendar"
+                style="color: #62d6ad;"></i> 2022</h2></a>
     </div>
-    <h4 class="text-3xl font-bold text-center text-[#62d6ad]"><i class="fa-regular fa-calendar"
-                                                                 style="color: #62d6ad;"></i> 2022</h4>
-    <div class="flex flex-col flex-wrap w-1100 text-center py-10 sm:flex-row justify-center items-center gap-2">
-        <a class="book-img" target="_blank"
-           href="https://www.goodreads.com/book/show/23692271-sapiens?ac=1&from_search=true&qid=jgjXMc3YOy&rank=1"><img
-                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1595674533i/23692271.jpg"
-                alt="Sapiens: A Brief History of Humankind book" height="250" width="250"></a>
-        <a class="book-img" target="_blank"
-           href="https://www.goodreads.com/book/show/41881472-the-psychology-of-money?ref=nav_sb_ss_1_19"><img
-                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1581527774i/41881472.jpg"
-                alt="The Psychology of money book" height="240" width="240"></a>
-        <a target="_blank" href="https://www.goodreads.com/book/show/27220736-shoe-dog?ref=nav_sb_ss_1_8"><img
-                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1457284880i/27220736.jpg"
-                alt="Shoe Dog: A Memoir by the Creator of Nike book" height="250" width="250"></a>
-        <a target="_blank" href="https://www.goodreads.com/book/show/19661852-fluent-forever?ref=nav_sb_ss_1_14"><img
-                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387702551i/19661852.jpg"
-                alt="Fluent Forever: How to Learn Any Language Fast and Never Forget It book" height="250" width="250"></a>
-        <a target="_blank"
-           href="https://www.goodreads.com/book/show/58211955-the-only-study-guide-you-ll-ever-need?ref=nav_sb_ss_1_20"><img
-                src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1622462507i/58211955.jpg"
-                alt="The Only Study Guide You'll Ever Need book" height="235" width="235"></a>
+
+    <div class="flex flex-col flex-wrap w-1100 text-center py-10 sm:flex-row justify-center items-center gap-2 transition-fade"
+         id="swup">
+        <p class="text-xl">Click the years</p>
+        <img alt="nerd dog" class="h-20 rounded-md" src="/images/nerd.png">
     </div>
 </section>
 <footer>
     <div class="flex space-x-5 items-center justify-center w-1100 py-8">
-        <a target="_blank" href="https://www.linkedin.com/in/ivo-%C5%BEaloudek-18a394216/"><i
+        <a href="https://www.linkedin.com/in/ivo-%C5%BEaloudek-18a394216/" target="_blank"><i
                 class="fa-brands fa-linkedin fa-2xl text-[#62d6ad] hover:-translate-y-2 hover:scale-110 duration-300"></i></a>
-        <a target="_blank" href="https://github.com/zalivo"><i
+        <a href="https://github.com/zalivo" target="_blank"><i
                 class="fa-brands fa-github fa-2xl text-[#62d6ad] hover:-translate-y-2 hover:scale-110 duration-300"></i></a>
-        <a target="_blank" href="https://www.goodreads.com/user/show/150361888-ivo-aloudek"><i
+        <a href="https://www.goodreads.com/user/show/150361888-ivo-aloudek" target="_blank"><i
                 class="fa-brands fa-goodreads fa-2xl text-[#62d6ad] hover:-translate-y-2 hover:scale-110 duration-300"></i></a>
-        <a target="_blank" href="https://medium.com/@izaloudek5"><i
+        <a href="https://medium.com/@izaloudek5" target="_blank"><i
                 class="fa-brands fa-medium fa-2xl text-[#62d6ad] hover:-translate-y-2 hover:scale-110 duration-300"></i></a>
     </div>
 </footer>
