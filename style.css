@@ -2,18 +2,18 @@ html * {
     font-family: 'Montserrat';
 }
 
-.transition-fade {
-    transition: 0.4s;
+html.is-changing .transition-fade {
+    transition: opacity 0.3s;
     opacity: 1;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
 }
 
 section {
 
     position: relative;
-}
-
-html.is-animating .transition-fade {
-    opacity: 0;
 }
 
 .book-img {
