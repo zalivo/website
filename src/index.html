@@ -4,8 +4,7 @@
     <meta charset="UTF-8"/>
     <link href="/images/favicon.png" rel="icon" type="image/svg+xml"/>
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./stylesoutput.css" rel="stylesheet">
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/ad41694d2d.js"></script>
     <script src="kindle.js"></script>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -116,24 +115,33 @@
         <h5 class="text-lg font-bold text-[#62d6ad]">Currently vibing to</h5>
         <div class="w-1100 flex flex-row justify-center">
             <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen class="rounded-md"
-                    height="315"
-                    src="https://www.youtube.com/embed/4nvewes8Inc?si=f81wraD5r88YZ-ym&amp;controls=0"
+                    allowfullscreen
+                    height="315" src="https://www.youtube.com/embed/4nvewes8Inc"
                     title="YouTube video player"
                     width="560"></iframe>
         </div>
     </div>
 </section>
 <footer>
-    <div class="flex space-x-5 items-center justify-center w-1100 py-8">
-        <a href="https://www.linkedin.com/in/ivo-%C5%BEaloudek-18a394216/" target="_blank"><i
-                class="fa-brands fa-linkedin fa-2xl text-[#62d6ad] hover:-translate-y-2 hover:scale-110 duration-300"></i></a>
-        <a href="https://github.com/zalivo" target="_blank"><i
-                class="fa-brands fa-github fa-2xl text-[#62d6ad] hover:-translate-y-2 hover:scale-110 duration-300"></i></a>
-        <a href="https://www.goodreads.com/user/show/150361888-ivo-aloudek" target="_blank"><i
-                class="fa-brands fa-goodreads fa-2xl text-[#62d6ad] hover:-translate-y-2 hover:scale-110 duration-300"></i></a>
-        <a href="https://medium.com/@izaloudek5" target="_blank"><i
-                class="fa-brands fa-medium fa-2xl text-[#62d6ad] hover:-translate-y-2 hover:scale-110 duration-300"></i></a>
+    <div class="flex flex-row items-center justify-center px-5 pt-5 py-5 gap-5">
+        <div class="flex flex-col gap-3 p-5">
+            <h5>Send a message</h5>
+            <a href="mailto:izaloudek5@gmail.com">izaloudek5@gmail.com</a>
+        </div>
+        <div class="flex sm:flex-col gap-3 p-5">
+            <a href="https://www.linkedin.com/in/ivo-%C5%BEaloudek-18a394216/" target="_blank"><i
+                    class="fa-solid fa-arrow-right fa-rotate-by text-[#62d6ad]"
+                    style="--fa-rotate-angle: -45deg;"></i> LinkedIn</a>
+            <a href="https://github.com/zalivo" target="_blank"><i
+                    class="fa-solid fa-arrow-right fa-rotate-by text-[#62d6ad]"
+                    style="--fa-rotate-angle: -45deg;"></i> GitHub</a>
+            <a href="https://www.goodreads.com/user/show/150361888-ivo-aloudek" target="_blank"><i
+                    class="fa-solid fa-arrow-right fa-rotate-by text-[#62d6ad]"
+                    style="--fa-rotate-angle: -45deg;"></i> Goodreads</a>
+            <a href="https://medium.com/@izaloudek5" target="_blank"><i
+                    class="fa-solid fa-arrow-right fa-rotate-by text-[#62d6ad]"
+                    style="--fa-rotate-angle: -45deg;"></i> Medium</a>
+        </div>
     </div>
 </footer>
 <script>window.renderHighlight('.target');</script>
